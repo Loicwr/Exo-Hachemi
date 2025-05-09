@@ -98,8 +98,14 @@ else {
         //Exercice 4
         //Saisissez une année Affichez si l'année est bissextile ou non Pour rappel, une année bissextile c'est :
 
-            
-
         //Une année multiple de 4
         //Une année non multiple de 100
         //OU une année multiple de 400
+
+            let annee = parseInt(prompt("Saisissez une année :"));
+
+            if ((annee % 4 === 0 && annee % 100 !== 0) || (annee % 400 === 0)) {
+                console.log(annee + " est une année bissextile.");
+            } else {
+                console.log(annee + " n'est pas une année bissextile.");
+            }
