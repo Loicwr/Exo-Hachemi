@@ -27,4 +27,16 @@ else {
     //
 
     let rayonCercle = prompt ("Quel est le rayon du cercle ?")
-    
+    resultat = 3.14 * 2 * rayonCercle
+    alert ("Le périmètre du cercle est de : " + resultat)
+
+    //
+
+    let a = 5;
+    let b = 10;
+
+    let temp = a;
+    a = b;
+    b = temp;
+
+    console.log(a, b)
