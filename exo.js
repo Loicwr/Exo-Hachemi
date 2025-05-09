@@ -81,8 +81,24 @@ else {
         //[14-16] : Bien
         //[17-20] : Excellent
 
+            let noteFrancais = prompt ("Quel est votre note ?")
+            if ( noteFrancais < 10 ) {
+                alert (" Insuffisant ")
+            }
+            else if ( noteFrancais >= 10 && noteFrancais <= 13 ){
+                alert ("Passable")
+            }
+            else if ( noteFrancais >=14 && noteFrancais <= 16 ){
+                alert ("Bien")
+            }
+            else if ( noteFrancais >= 17 && noteFrancais <= 20 ){
+                alert ("Excellent")
+            }
+
         //Exercice 4
         //Saisissez une année Affichez si l'année est bissextile ou non Pour rappel, une année bissextile c'est :
+
+            
 
         //Une année multiple de 4
         //Une année non multiple de 100
