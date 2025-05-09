@@ -67,7 +67,10 @@ else {
 
             let nombrePairImpair = prompt ("donner moi un nombre, regardons si il est pair ou impair");
             if (nombrePairImpair % 2 == 0){
-                alert ("")
+                alert ("Le nombre est pair")
+            }
+            else {
+                alert ("le nombre est impair")
             }
 
         //Exercice 3
