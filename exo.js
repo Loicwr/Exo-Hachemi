@@ -109,3 +109,27 @@ else {
             } else {
                 alert (annee + " n'est pas une année bissextile.");
             }
+
+
+        //Utilisation des structures répétitives
+
+        //Exercice 1
+        //Affichez les nombres de 1 à 10 avec les différents types de boucles :
+
+        //While
+        //do..while
+        //for
+
+
+        //Exercice 2
+        //Demandez à l'utilisateur de saisir un nombre Affichez les nombres pairs de 0 à ce nombre
+
+
+
+        //Exercice 3
+        //Demandez à l'utilisateur de saisir un nombre Affichez la table de multiplication de ce nombre
+
+
+
+        //Exercice 4
+        //Reprendre l'exercice 2 et le mettre dans une fonction paramétrée
