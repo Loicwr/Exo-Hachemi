@@ -120,16 +120,48 @@ else {
         //do..while
         //for
 
+            let nombre1 = 1;
+            while ( nombre1 < 10){
+                alert (nombre1)
+                nombre1++
+            }
+
+            let nombre2 = 1;
+            do {
+                alert (nombre2);
+                nombre2++;
+            }
+            while ( nombre2 <= 10 )
+
+            for( let nombre3 = 1 ; nombre3 <= 10 ; nombre3++ ){
+                alert (nombre3)
+            }
 
         //Exercice 2
         //Demandez à l'utilisateur de saisir un nombre Affichez les nombres pairs de 0 à ce nombre
 
-
+            let nombrePair = parseInt(prompt("Saisissez un nombre :"));
+            for (let i = 0; i <= nombrePair; i++) {
+                if (i % 2 === 0) {
+                    alert(i);
+                }
+            }
 
         //Exercice 3
-        //Demandez à l'utilisateur de saisir un nombre Affichez la table de multiplication de ce nombre
-
-
+        //Demandez à l'utilisateur de saisir un nombre Affichez la table de multiplication de ce nombre 
+        
+            let nombreTable = parseInt(prompt("Saisissez un nombre :"));
+            for (let i = 1; i <= 10; i++) {
+                alert(nombreTable + " x " + i + " = " + (nombreTable * i));
+            }
 
         //Exercice 4
         //Reprendre l'exercice 2 et le mettre dans une fonction paramétrée
+
+            function afficherNombresPairs(nombre) {
+                for (let i = 0; i <= nombre; i++) {
+                    if (i % 2 === 0) {
+                        alert(i);
+                    }
+                }
+            }
